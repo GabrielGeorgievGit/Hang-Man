@@ -1,6 +1,6 @@
 import java.util.*;
 public class HangOn {
-	String WordToFind = "mousefausebausek";
+	String WordToFind = "programming";
 	int wrongLetterNum = 0, 
 			arrayNum = WordToFind.length();
 	char theEqual, 
