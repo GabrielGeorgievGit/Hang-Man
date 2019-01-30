@@ -136,8 +136,9 @@ public class HangOn {
 						String.valueOf(word.WordToFind).replaceAll(".", "$0  "));//Cool, huh?
 				return;
 			}
+			System.out.println("Yo mad to scroll?\nIt's better than nothing :(\just delete BEST CLEAR CONSOLE EVER M8");
 			for (int i = 0; i < 50; ++i) 
-				System.out.println();//BEST CLEAR CONSELE EVERRRR
+				System.out.println();//BEST CLEAR CONSOLE EVERRRR
 		}
 		while(!word.isEnded());
 		tryContains.close();
