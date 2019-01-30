@@ -136,7 +136,7 @@ public class HangOn {
 						String.valueOf(word.WordToFind).replaceAll(".", "$0  "));//Cool, huh?
 				return;
 			}
-			System.out.println("Yo mad to scroll?\nIt's better than nothing :(\njust delete BEST CLEAR CONSOLE EVER M8" +
+			System.out.println("Yo mad to scroll?\nIt's better than nothing :(\njust delete BEST CLEAR CONSOLE EVER M8\n" +
 					  "Hint(For most lazy people: Just press the letter you want to add(auto scroll) :*");
 			for (int i = 0; i < 50; ++i) 
 				System.out.println();//BEST CLEAR CONSOLE EVERRRR
