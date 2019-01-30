@@ -13,7 +13,7 @@ public class HangOn {
 	 LinkedList<Character>SummonedLetters = new LinkedList<Character>();
 	public HangOn()
 	{
-		System.out.println("All Letters: " + arrayNum);
+		//System.out.println("All Letters: " + arrayNum);
 		for(int i = 0; i < arrayNum; i++)
 		{
 			Letters[i] = '_';
@@ -80,6 +80,7 @@ public class HangOn {
 	void OutputTheWord()
 	{
 		SummonedLetters.sort(null);//maybe remove soon?
+		System.out.println("All Letters: " + arrayNum);
 		System.out.println("\nThe word is:");
 		System.out.println(String.valueOf(Letters).replaceAll(".", "$0  "));
 		System.out.println("Used letters: " + SummonedLetters);
