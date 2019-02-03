@@ -14,11 +14,19 @@ class Reader {
 		LinkedList<String>Words = new LinkedList<String>();
 		try 
 		{
+			/*//For same directory - maybe bad decision :(
 			URL path = ClassLoader.getSystemResource("Words.txt");
 			if(path==null)
 				System.out.println("The file for words was not found");
 			File f = new File(path.toURI());
 			BufferedReader reader = new BufferedReader(new FileReader(f));
+			*/
+			/*//For different directory - have to know the path to it :(
+			FileReader f = new FileReader("C:/Users/gabet/Desktop/prygrammer/JAVA PROGRAMMING/HangOn/src/Words.txt");
+			BufferedReader reader = new BufferedReader(f);
+			*/
+			FileReader f = new FileReader("C:/Users/gabet/Desktop/prygrammer/JAVA PROGRAMMING/HangOn/src/Words.txt");
+			BufferedReader reader = new BufferedReader(f);
 			if(reader.ready())
 			{
 				String line = null;
