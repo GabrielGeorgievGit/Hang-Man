@@ -1,4 +1,3 @@
-Gabetoyes
 Hangman
 School
 Delay
