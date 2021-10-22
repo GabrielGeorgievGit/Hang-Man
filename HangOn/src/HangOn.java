@@ -50,10 +50,6 @@ public class HangOn
 		for(int i = 0; i < IndexesToAdd.size(); i++)
 			Letters[IndexesToAdd.get(i)] = letterToAdd;
 	}
-	void ShowLetters()//Update or stay -_- Maybe not...
-	{
-		//System.out.println("In ShowLetters()");
-	}
 	void CheckLetters()
 	{
 		for(int i = 0; i <= arrayNum - 1; i++)
@@ -121,7 +117,6 @@ public class HangOn
 				System.out.println("\n\n\nYou used more than 8 different letters\n"
 						+ "You Lost :(\nBetter KYS\nThe word was:\n" + 
 						String.valueOf(word.WordToFind).replaceAll(".", "$0  "));
-				//return;
 			}
 			if(word.isEnded() && word.wrongLetterNum < 8)
 			{
